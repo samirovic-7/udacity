@@ -1,0 +1,105 @@
+                        * {
+                            padding: 0%;
+                            margin: 0%;
+                            scroll-behavior: smooth;
+                        }
+                        
+                        .container {
+                            width: 100%;
+                        }
+                        
+                        .nav {
+                            width: 100%;
+                            height: 6.5%;
+                            background-color: white;
+                            position: fixed;
+                            z-index: 10;
+                        }
+                        
+                        .nav ul {
+                            float: right;
+                            margin: 1px 2px 0px 0px;
+                        }
+                        
+                        .nav li {
+                            list-style: none;
+                            display: inline-block;
+                            padding: 16.5px;
+                            cursor: pointer;
+                        }
+                        
+                        .nav li:hover {
+                            background-color: black;
+                            color: blanchedalmond;
+                        }
+                        
+                        .sections {
+                            width: 100%;
+                            height: 2860px;
+                        }
+                        
+                        .sections h1 {
+                            color: white;
+                            position: relative;
+                            top: 2%;
+                            font-size: 550%;
+                            background-color: rgba(34, 75, 133, .8);
+                            padding: 2% 0% 7% 2%;
+                        }
+                        
+                        .sections section {
+                            width: 100%;
+                            height: 25%;
+                            background-color: rgba(34, 75, 133, .8);
+                            position: relative;
+                            top: 2%;
+                        }
+                        
+                        .content_left {
+                            width: 60%;
+                            float: left;
+                            height: 100%;
+                        }
+                        
+                        .content_right {
+                            width: 60%;
+                            float: right;
+                            height: 100%;
+                        }
+                        
+                        .sections section .h2_left {
+                            position: relative;
+                            top: 1%;
+                            font-size: 300%;
+                            padding-left: 2%;
+                            color: white;
+                            font-weight: 800;
+                        }
+                        
+                        .sections section .h2_right {
+                            position: relative;
+                            top: 1%;
+                            font-size: 300%;
+                            padding-right: 3%;
+                            color: white;
+                            font-weight: 800;
+                            float: right;
+                        }
+                        
+                        hr {
+                            margin-top: 1%;
+                            width: 95%;
+                            position: relative;
+                            left: 2%;
+                            background-color: rgba(255, 255, 0, 0.911);
+                        }
+                        
+                        .sections section p {
+                            position: relative;
+                            top: 5%;
+                            font-size: 100%;
+                            padding-left: 2%;
+                            color: white;
+                            width: 95%;
+                            margin-top: 2%;
+                        }
