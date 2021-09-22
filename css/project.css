@@ -28,6 +28,11 @@
                             cursor: pointer;
                         }
                         
+                        .active {
+                            background-color: black;
+                            color: blanchedalmond;
+                        }
+                        
                         .nav li:hover {
                             background-color: black;
                             color: blanchedalmond;
